@@ -1,0 +1,19 @@
+# Weather
+  - platform: bom
+     station: IDN60801.94730
+     name: Bathurst
+     monitored_conditions:
+         - weather
+         - cloud
+         - cloud_base_m
+         - delta_t
+         - gust_kmh
+         - gust_kt
+         - air_temp
+         - dewpt
+         - press
+         - rain_trace
+         - rel_hum
+         - vis_km
+         - wind_dir
+         - wind_spd_kmh

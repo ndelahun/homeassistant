@@ -1,0 +1,162 @@
+homeassistant:
+  # Name of the location where Home Assistant is running
+  name: Home
+  # Location required to calculate the time the sun rises and sets
+  latitude: -33.370
+  longitude: 149.543
+  # Impacts weather/sunrise data (altitude above sea level in meters)
+  elevation: 694
+  # metric for Metric, imperial for Imperial
+  unit_system: metric
+  # Pick yours from here: http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+  time_zone: Australia/Sydney
+  # Customization file
+  customize: !include customize.yaml
+
+# Show links to resources in log and frontend
+
+
+customizer:
+  custom_ui: local
+  
+# Enables the frontend
+frontend:
+
+# Enables configuration UI
+config:
+
+http:
+  # Secrets are defined in the file secrets.yaml
+  # api_password: !secret http_password
+  # Uncomment this if you are using SSL/TLS, running in Docker container, etc.
+  # base_url: example.duckdns.org:8123
+  server_port: 9501
+
+# Checks for available updates
+# Note: This component will send some information about your system to
+# the developers to assist with development of Home Assistant.
+# For more information, please see:
+# https://home-assistant.io/blog/2016/10/25/explaining-the-updater/
+updater:
+  # Optional, allows Home Assistant developers to focus on popular components.
+  # include_used_components: true
+
+# Discover some devices automatically
+discovery:
+
+# Allows you to issue voice commands from the frontend in enabled browsers
+conversation:
+
+# Enables support for tracking state changes over time
+history:
+
+# View all events in a logbook
+logbook:
+
+# Enables a map showing the location of tracked devices
+map:
+
+# Recorder
+recorder:
+
+# Track the sun
+sun:
+
+# upnp
+upnp:
+
+ffmpeg:
+  ffmpeg_bin: /usr/bin/ffmpeg
+  
+# Weather
+weather:
+  - platform: bom
+    station: IDN60801.94730
+
+# Weather prediction
+sensor:
+# Weather
+  - platform: bom
+    station: IDN60801.94730
+    name: Bathurst
+    monitored_conditions:
+      - weather
+      - cloud
+      - apparent_t
+      - delta_t
+      - air_temp
+      - dewpt
+      - rain_trace
+      - rel_hum
+      - vis_km
+      - wind_dir
+      - wind_spd_kmh
+      
+  - platform: darksky
+    api_key: 68fe158b5a281ceee2fc1c6ba6132730
+    monitored_conditions:
+      - summary
+      - precip_type
+      - precip_intensity
+      - precip_probability
+      - temperature
+      - apparent_temperature
+      - dew_point
+      - wind_speed
+      - wind_bearing
+      - cloud_cover
+      - humidity
+      - pressure
+      - ozone
+      - hourly_summary
+      - daily_summary
+      - temperature_max
+      - temperature_min
+      - apparent_temperature_max
+      - apparent_temperature_min
+      - precip_intensity_max
+      - uv_index
+
+  - platform: cpuspeed
+
+  - platform: systemmonitor
+    resources:
+      - type: memory_use_percent
+      - type: processor_use
+      - type: load_5m
+
+xiaomi_aqara:
+  discovery_retry: 5
+  gateways:
+    - mac: 78:11:DC:B0:59:BE
+      key: 5uthlp2tb76wvyng    
+
+# Text to speech
+tts:
+  - platform: google
+
+media_player: !include mediaplayer.yaml
+#device_tracker: !include devicetracker.yaml
+
+# IFTTT
+ifttt:
+  key: dVgEAz-bo8JK8H0EjEpYxe
+
+notify:
+  - platform: ios
+    name: toni Iphone
+  
+  - platform: telstra
+    name: Notify Nathan
+    consumer_key: EO7J7664ByWo4Z9Qds17dw0wp26rPbxI
+    consumer_secret: t3NAl47f6A3A4A6G
+    phone_number: +61400505639
+
+camera:
+  - platform: onvif
+    host: 192.168.1.125
+    port: 8150
+    
+group: !include groups.yaml
+automation: !include automations.yaml
+script: !include scripts.yaml

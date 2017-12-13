@@ -1,0 +1,6 @@
+# Asus Router
+
+  - platform: asuswrt
+    host: 192.168.2.1
+    username: ndelahun
+    password: 9sygf772

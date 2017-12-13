@@ -1,0 +1,236 @@
+
+iphone:
+  hide_if_away: false
+  icon:
+  mac: 30:63:6B:E1:A9:16
+  name: Toni Work iPhone
+  picture:
+  track: true
+  vendor: Apple, Inc.
+
+androidba3edc4973752faf:
+  hide_if_away: false
+  icon:
+  mac: 04:E6:76:CF:F0:8A
+  name: TV Box Living Room
+  picture:
+  track: no
+  vendor: AMPAK Technology, Inc.
+
+
+30074d3e7661:
+  hide_if_away: false
+  icon:
+  mac: 30:07:4D:3E:76:61
+  name: Samsung
+  picture:
+  track: true
+  vendor: SAMSUNG ELECTRO-MECHANICS(THAILAND)
+
+samsunggalaxys7edge:
+  hide_if_away: false
+  icon:
+  mac: 60:F1:89:4C:D1:B7
+  name: Samsung-Galaxy-S7-edge
+  picture:
+  track: no
+  vendor: Murata Manufacturing Co., Ltd.
+
+galaxys8:
+  hide_if_away: false
+  icon:
+  mac: 30:07:4D:2E:35:4B
+  name: Heath S8
+  picture:
+  track: true
+  vendor: SAMSUNG ELECTRO-MECHANICS(THAILAND)
+
+toniperaliphone:
+  hide_if_away: false
+  icon:
+  mac: B8:53:AC:E1:05:9C
+  name: Toni Personal iPhone
+  picture:
+  track: true
+  vendor: Apple, Inc.
+
+androidf0356888cf2e2400:
+  hide_if_away: false
+  icon:
+  mac: 34:C3:D2:07:C5:D4
+  name: android-f0356888cf2e2400
+  picture:
+  track: no
+  vendor: FN-LINK TECHNOLOGY LIMITED
+
+gearfit2dfc8:
+  hide_if_away: false
+  icon:
+  mac: 84:98:66:94:DF:C9
+  name: GearFit2-DFC8
+  picture:
+  track: no
+  vendor: Samsung Electronics Co.,Ltd
+
+
+nas:
+  hide_if_away: false
+  icon:
+  mac: 6C:72:20:03:20:75
+  name: NAS
+  picture:
+  track: no
+  vendor: D-Link International
+
+googlehome:
+  hide_if_away: false
+  icon:
+  mac: D8:6C:63:43:31:8A
+  name: Google-Home
+  picture:
+  track: no
+  vendor: Google, Inc.
+
+yeelinklightcolor1_miio57599860:
+  hide_if_away: false
+  icon:
+  mac: 34:CE:00:8C:F3:C1
+  name: yeelink-light-color1 miio57599860
+  picture:
+  track: no
+  vendor: XIAOMI Electronics,CO.,LTD
+
+heathsxboxone:
+  hide_if_away: false
+  icon:
+  mac: 30:59:B7:6D:B5:E3
+  name: HEATHSXBOXONE
+  picture:
+  track: No
+  vendor: Microsoft
+
+tonisipad:
+  hide_if_away: false
+  icon:
+  mac: B8:E8:56:74:8C:7F
+  name: Tonis-iPad
+  picture:
+  track: No
+  vendor: Apple, Inc.
+
+00e091a5c623:
+  hide_if_away: false
+  icon:
+  mac: 00:E0:91:A5:C6:23
+  name: LG Home Theater
+  picture:
+  track: no
+  vendor: LG Electronics
+
+lgwebostv:
+  hide_if_away: false
+  icon:
+  mac: 14:C9:13:49:7D:14
+  name: LGwebOSTV
+  picture:
+  track: no
+  vendor: LG Electronics
+
+nathansxbox1s:
+  hide_if_away: false
+  icon:
+  mac: F0:1D:BC:0A:4F:40
+  name: NATHANSXBOX1S
+  picture:
+  track: no
+  vendor: unknown
+
+frontmedia:
+  hide_if_away: false
+  icon:
+  mac: 1C:4B:D6:A8:76:23
+  name: FrontMedia
+  picture:
+  track: no
+  vendor: unknown
+
+laptop:
+  hide_if_away: false
+  icon:
+  mac: DC:85:DE:5F:A9:98
+  name: Laptop
+  picture:
+  track: no
+  vendor: unknown
+
+yeelinklightcolor1_miio57588138:
+  hide_if_away: false
+  icon:
+  mac: 34:CE:00:8C:C5:F7
+  name: yeelink-light-color1 miio57588138
+  picture:
+  track: no
+  vendor: unknown
+
+orangepi:
+  hide_if_away: false
+  icon:
+  mac: 52:30:5A:72:05:AF
+  name: OrangePI
+  picture:
+  track: No
+  vendor: unknown
+
+a4d578446f61:
+  hide_if_away: false
+  icon:
+  mac: A4:D5:78:44:6F:61
+  name: WaterMe
+  picture:
+  track: no
+  vendor: Texas Instruments
+
+heath_laptop:
+  hide_if_away: false
+  icon:
+  mac: 3C:95:09:A0:34:1F
+  name: Heath Laptop
+  picture:
+  track: true
+  vendor: unknown
+
+archer_d9:
+  hide_if_away: false
+  icon:
+  mac: 62:A6:F7:EC:20:76
+  name: Archer D9
+  picture:
+  track: true
+  vendor: unknown
+
+printer:
+  hide_if_away: false
+  icon:
+  mac: EC:9A:74:E6:90:35
+  name: Printer
+  picture:
+  track: true
+  vendor: Hewlett Packard
+
+yeelinklightmono1_miio56779897:
+  hide_if_away: false
+  icon:
+  mac: 34:CE:00:88:87:1A
+  name: yeelink-light-mono1 miio56779897
+  picture:
+  track: true
+  vendor: XIAOMI Electronics,CO.,LTD
+
+ipad:
+  hide_if_away: false
+  icon:
+  mac:
+  name: ipad
+  picture:
+  track: true
+  vendor:

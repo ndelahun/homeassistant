@@ -1,0 +1,18 @@
+# Web OS TV
+
+  - platform: webostv
+    host: 192.168.2.163
+    name: Living Room TV
+    timeout: 5
+    filename: webostv.conf
+    turn_on_action:
+      service: persistent_notification.create
+      data:
+        message: "Turn on action"
+    customize:
+      sources:
+        - livetv
+        - youtube
+        - netflix
+
+  - platform: cast

@@ -1,0 +1,95 @@
+  Lights:
+    name: My Lights
+    view: yes
+    entities:
+     - light.yeelight_rgb_34ce008cf3c1
+     - light.yeelight_rgb_34ce008cc5f7
+      
+  Media Devices:
+    name: Media Devices
+    view: yes
+    entities:
+      - media_player.living_room_tv
+      - media_player.ugoosut4
+      
+  Devices:
+    name: Tracked Devices
+    view: yes
+    entities:
+      - device_tracker.iphone
+      - device_tracker.galaxys8
+      - device_tracker.toniperaliphone
+      - device_tracker.heath_laptop
+      - device_tracker.30074d3e7661
+
+      
+ # climate:
+  Temperature:
+    name: Temperatures
+    entities:
+      - sensor.bom_bathurst_feels_like_c
+      - sensor.bom_bathurst_delta_temp_c
+      - sensor.bom_bathurst_air_temp_c
+      - sensor.bom_bathurst_dew_point_c
+  Cloud:
+    name: Cloud
+    entities:
+      - sensor.bom_bathurst_cloud
+      - sensor.bom_bathurst_cloud_base
+      - sensor.bom_bathurst_visability_km
+  wind:
+    name: Wind
+    entities:
+      - sensor.bom_bathurst_wind_direction
+      - sensor.bom_bathurst_wind_speed_kmh    
+  rain:
+    name: Rain and Humidity
+    entities:
+      - sensor.bom_bathurst_rain_today
+      - sensor.bom_bathurst_relative_humidity
+  Weather:
+    name: Weather
+    view: yes
+    entities:
+      - weather.bom_bathurst
+      - sun.sun
+      - sensor.bom_bathurst_weather
+      - group.Temperature
+      - group.Cloud
+      - group.wind
+      - group.rain
+
+  Dark_Sky:
+    name: Dark Sky Weather
+    entities:
+      - sensor.dark_sky_apparent_temperature
+      - sensor.dark_sky_cloud_coverage
+      - sensor.dark_sky_daily_high_apparent_temperature
+      - sensor.dark_sky_daily_low_apparent_temperature
+      - sensor.dark_sky_daily_high_temperature
+      - sensor.dark_sky_daily_low_temperature
+      - sensor.dark_sky_daily_max_precip_intensity
+      - sensor.dark_sky_daily_summary
+      - sensor.dark_sky_dew_point
+      - sensor.dark_sky_hourly_summary
+      - sensor.dark_sky_humidity
+      - sensor.dark_sky_ozone
+      - sensor.dark_sky_precip
+      - sensor.dark_sky_precip_intensity
+      - sensor.dark_sky_precip_probability
+      - sensor.dark_sky_pressure
+      - sensor.dark_sky_summary
+      - sensor.dark_sky_temperature
+      - sensor.dark_sky_uv_index
+      - sensor.dark_sky_wind_bearing
+      - sensor.dark_sky_wind_speed
+
+  Server:
+    name: Server Info
+    entities:
+      - sensor.igd_packets_recieved
+      - sensor.igd_packets_sent
+      - sensor.igd_recieved_bytes
+      - sensor.ram_used
+      - sensor.cpu_used
+      - sensor.cpu_speed

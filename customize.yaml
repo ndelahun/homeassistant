@@ -1,0 +1,16 @@
+light.yeelight_rgb_34ce008cf3c1:
+  friendly_name: Heath Bedroom
+  use_music_mode: true
+light.yeelight_rgb_34ce008cc5f7:
+  friendly_name: Main Bathroom
+  use_music_mode: true
+zone.home:
+  latitude: -33.369517
+  longitude: 149.542714
+  radius: 75
+group.climate:
+  order: 3
+group.all_lights:
+  order: 1
+group.devices:
+  order: 2
