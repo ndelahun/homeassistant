@@ -1,20 +1,17 @@
   Lights:
     name: My Lights
-    view: yes
     entities:
      - light.yeelight_rgb_34ce008cf3c1
      - light.yeelight_rgb_34ce008cc5f7
       
   Media Devices:
     name: Media Devices
-    view: yes
     entities:
       - media_player.living_room_tv
       - media_player.ugoosut4
       
   Devices:
     name: Tracked Devices
-    view: yes
     entities:
       - device_tracker.iphone
       - device_tracker.galaxys8
@@ -22,8 +19,7 @@
       - device_tracker.heath_laptop
       - device_tracker.30074d3e7661
 
-      
- # climate:
+# climate:
   Temperature:
     name: Temperatures
     entities:
@@ -47,6 +43,7 @@
     entities:
       - sensor.bom_bathurst_rain_today
       - sensor.bom_bathurst_relative_humidity
+  
   Weather:
     name: Weather
     view: yes
@@ -58,6 +55,7 @@
       - group.Cloud
       - group.wind
       - group.rain
+      - group.Dark_Sky
 
   Dark_Sky:
     name: Dark Sky Weather
